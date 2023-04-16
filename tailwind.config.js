@@ -10,10 +10,14 @@ module.exports = {
 
         extend: {
             fontFamily: {
-                'poppins': [
-                    'Poppins', 'sans-serif'
-                ],
-                'nasa': ["nasa", "sarif"]
+                better:['var(--font-better)'],
+                cal:['var(--font-cal)'],
+
+                // 'poppins': [
+                //     'Poppins', 'sans-serif'
+                // ],
+                // 'great': ['Great Vibes', 'cursive'],
+                // 'nasa': ["nasa", "sarif"]
             }
         },
         plugins: []
